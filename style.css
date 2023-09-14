@@ -468,6 +468,12 @@ a{
         display: none;
     }
 
+    .toggle{
+        left: 37.5vh;
+        top: 0.5vh;
+        position: absolute;}
+
+
 }
 
 
@@ -476,7 +482,7 @@ a{
 @media screen and (max-width: 1024px) {
 
     .toggle{
-      left: 40vh;
+      left: 23vh;
       position: absolute;
     }
     
@@ -506,6 +512,47 @@ a{
         display: none;
     }
     
+  }
+
+  @media screen and (max-width: 896px){
+
+    .toggle{
+        left: 73vh;
+        top:0.5vh;
+        position: absolute;
+      }
+      
+    #left{
+        width: 100vw;
+        height:auto;
+        overflow: auto;
+    }
+
+    #right{
+        width: 100vw;
+        height: 90vh;
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 844px){
+
+    .toggle{
+        left: 77.7vh;
+        position: absolute;
+      }
+      
+    #left{
+        width: 100vw;
+        height:auto;
+        overflow: auto;
+    }
+
+    #right{
+        width: 100vw;
+        height: 90vh;
+        display: none;
+    }
   }
 
  
@@ -634,8 +681,10 @@ a{
    }
 
     .toggle {
-        left: 28vh;
-        top:0.4vh;
+        width: 4.2rem;
+        height: 2.4rem;
+        left: 28.6vh;
+        top:0.8vh;
         position: absolute;
     }
 
@@ -643,16 +692,112 @@ a{
         height:35vh;
     }
 
+
+    .toggle input {
+        display: none;
+      }
+      
+      .roundbutton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        display: block;
+        transition: all 0.3s;
+        border-radius: 2.4rem;
+        cursor: pointer;
+        transform: rotate(3.142rad);
+        border: 1px solid black;
+    
+      }
+      
+      .roundbutton:before {
+        position: absolute;
+        content: "";
+        height: 1.3rem;
+        width: 1.3rem;
+        border-radius: 100%;
+        display: block;
+        left: 0.45rem;
+        bottom: 0.2rem;
+        background-color: yellow;
+        transition: all 0.3s;
+        transform: rotate(3.142rad);
+        z-index: 9999;
+        border: 1px solid black;
+      }
+    
+      
+      input:checked + .roundbutton:before {
+        transform: translate(1.6rem, 0);
+        background-color: green;
+      }
+
     
 }
 
 
   @media screen and (max-width: 390px) {
-    .toggle {
-        left: 29.8vh;
-        position: absolute;
-    }
 
+    .toggle {
+        position: absolute;
+        /* display: inline-block; */
+        width: 4.2rem;
+        height: 2.4rem;
+        top:0.7vh;
+        left:30.3vh;
+      }
+    
+      .toggle input {
+        display: none;
+      }
+      
+      .roundbutton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        display: block;
+        transition: all 0.3s;
+        border-radius: 2.4rem;
+        cursor: pointer;
+        transform: rotate(3.142rad);
+        border: 1px solid black;
+    
+      }
+      
+      .roundbutton:before {
+        position: absolute;
+        content: "";
+        height: 1.3rem;
+        width: 1.3rem;
+        border-radius: 100%;
+        display: block;
+        left: 0.45rem;
+        bottom: 0.2rem;
+        background-color: yellow;
+        transition: all 0.3s;
+        transform: rotate(3.142rad);
+        z-index: 9999;
+        border: 1px solid black;
+      }
+    
+      
+      /* 
+      input:checked + .roundbutton {
+        background-color: blue;
+      } */
+      
+      input:checked + .roundbutton:before {
+        transform: translate(1.6rem, 0);
+        background-color: green;
+      }
   }
 
   
@@ -669,7 +814,7 @@ a{
         width: 4.2rem;
         height: 2.4rem;
         top:0.7vh;
-        left:31.6vh;
+        left:38vh;
       }
     
       .toggle input {
@@ -724,19 +869,19 @@ a{
 
 @media screen and (max-width: 360px) {
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
  
     .intro{
-     font-size: 14px;
+     font-size: 12px;
     }
  
     .image-count{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .toggle{
-        left: 31.6vh;
+        left: 28vh;
         top:0.7vh;
         position: absolute;
     }
@@ -759,7 +904,7 @@ a{
     
     
     .toggle{
-        left: 38vh;
+        left: 44.8vh;
         position: absolute;
     }
     
