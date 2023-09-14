@@ -636,74 +636,24 @@ a{
 
 @media screen and (max-width: 360px) {
     body{
-        font-size: 12px;
+        font-size: 13px;
     }
  
     .intro{
-     font-size: 12px;
+     font-size: 14px;
     }
  
     .image-count{
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .toggle{
+        left: 31.6vh;
+        top:0.7vh;
+        position: absolute;
     }
 
   
-    .toggle {
-    position: absolute;
-    /* display: inline-block; */
-    width: 4.2rem;
-    height: 2.4rem;
-    top:0.7vh;
-    left:38vh;
-  }
-
-  .toggle input {
-    display: none;
-  }
-  
-  .roundbutton {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    background-color: white;
-    display: block;
-    transition: all 0.3s;
-    border-radius: 2.4rem;
-    cursor: pointer;
-    transform: rotate(3.142rad);
-    border: 1px solid black;
-
-  }
-  
-  .roundbutton:before {
-    position: absolute;
-    content: "";
-    height: 1.3rem;
-    width: 1.3rem;
-    border-radius: 100%;
-    display: block;
-    left: 0.45rem;
-    bottom: 0.2rem;
-    background-color: yellow;
-    transition: all 0.3s;
-    transform: rotate(3.142rad);
-    z-index: 9999;
-    border: 1px solid black;
-  }
-
-  
-  /* 
-  input:checked + .roundbutton {
-    background-color: blue;
-  } */
-  
-  input:checked + .roundbutton:before {
-    transform: translate(1.6rem, 0);
-    background-color: green;
-  }
 }
 
 @media screen and (max-width: 320px){
