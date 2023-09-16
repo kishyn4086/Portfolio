@@ -2,7 +2,7 @@
 const galleryOneImages = ["gallery1/image1.jpg", "gallery1/image2.jpg", "gallery1/image3.jpg", "gallery1/image4.jpg", "gallery1/image5.jpg"];
 let currentIndexOne = 0;
 
-const galleryTwoImages = ["gallery2/image1.jpg", "gallery2/image2.jpg", "gallery2/image3.jpg", "gallery2/image4.jpg", "gallery2/image5.jpg"];
+const galleryTwoImages = ["gallery2/image1.jpg", "gallery2/image2.jpg", "gallery2/image3.jpg", "gallery2/image4.jpg", "gallery2/image5.jpg", "gallery2/image6.jpg", "gallery2/image7.jpg"];
 let currentIndexTwo = 0;
 
 const galleryThreeImages = ["gallery3/image1.jpg", "gallery3/image2.jpg"];
@@ -19,11 +19,11 @@ const gallerySixImages = ["gallery6/image1.png", "gallery6/image2.jpg", "gallery
 let currentIndexSix = 0;
 
 
-const gallerySevenImages = ["gallery7/Brightness.gif"];
+const gallerySevenImages = ["gallery7/image1.jpg", "gallery7/image2.jpg", "gallery7/image3.jpg", "gallery7/image4.jpg", "gallery7/image5.jpg", "gallery7/image6.jpg","gallery7/image7.jpg", "gallery7/image8.jpg", "gallery7/image9.jpg", "gallery7/image10.jpg", "gallery7/image11.jpg"];
 let currentIndexSeven = 0;
 
 
-const galleryEightImages = ["gallery8/image1.jpg", "gallery8/image2.jpg", "gallery8/image3.jpg", "gallery8/image4.jpg", "gallery8/image5.gif"];
+const galleryEightImages = ["gallery8/image1.jpg", "gallery8/image2.jpg", "gallery8/image3.jpg", "gallery8/image4.jpg", "gallery8/image5.jpg", "gallery8/image6.jpg", "gallery8/image7.jpg", "gallery8/image9.jpg", "gallery8/image10.jpg"];
 let currentIndexEight = 0;
 
 
