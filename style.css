@@ -81,7 +81,7 @@ body {
   
   /* Style the slider when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider {
-    background-color: #69e96d; /* Color when toggled on */
+    background-color: #00e107; /* Color when toggled on */
   }
   
   /* Style the slider knob (the small circle) */
@@ -223,7 +223,7 @@ p{
 }
   
 .textwidth{
-    max-width: 67vh; 
+    max-width: 80vh; 
 }
 
 a{
@@ -269,7 +269,7 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#image-count-6, #image-count-8, #image-count-9{
+#image-count-6, #image-count-7,#image-count-8, #image-count-9{
     right: 2vh;
 }
 
@@ -392,12 +392,12 @@ a{
 
 #left-overlay-7 {
     left: 0;
-    cursor: default;
+    cursor: w-resize;
 }
 
 #right-overlay-7 {
     right: 0;
-    cursor: default;
+    cursor: e-resize;
 }
 
 #left-overlay-8 {
@@ -499,7 +499,7 @@ a{
   
   /* Style the slider when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider {
-    background-color: #69e96d;;
+    background-color: #00e107;
   }
   
   /* Style the slider knob (the small circle) */
