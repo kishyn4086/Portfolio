@@ -81,7 +81,7 @@ body {
   
   /* Style the slider when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider {
-    background-color: #4CAF50; /* Color when toggled on */
+    background-color: #69e96d; /* Color when toggled on */
   }
   
   /* Style the slider knob (the small circle) */
@@ -236,10 +236,7 @@ a{
 
 
 #current-image-2{
-    width: 87%;
-    bottom:4vh;
-    top:0;
-    left: 0;
+    width: 100%;
     position: absolute;
 }
 
@@ -277,9 +274,8 @@ a{
 }
 
 #current-image-7{
-    width: 70%;
-    margin-top: 8vh;
-    /* bottom:0vh; */
+    width: 95%;
+    bottom:0vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #current-image-8{
@@ -294,10 +290,11 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 
-#current-image-10{
+#current-image-10 {
     width: 100%;
-    /* margin-top: 2.5vh; */
 }
+
+
 
 
 
@@ -375,12 +372,12 @@ a{
 
 #left-overlay-5 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: default; /* Left-pointing cursor */
 }
 
 #right-overlay-5 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: default; /* Right-pointing cursor */
 }
 
 #left-overlay-6 {
@@ -395,12 +392,12 @@ a{
 
 #left-overlay-7 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: default;
 }
 
 #right-overlay-7 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: default;
 }
 
 #left-overlay-8 {
@@ -502,7 +499,7 @@ a{
   
   /* Style the slider when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider {
-    background-color: #4CAF50;;
+    background-color: #69e96d;;
   }
   
   /* Style the slider knob (the small circle) */
@@ -536,7 +533,11 @@ a{
     }
 
     .gallery{
-        height: 45%;
+        height: 40%;
+    }
+
+    #current-image{
+        width: 100%;
     }
   }
 
@@ -556,7 +557,7 @@ a{
     }
 
     .gallery{
-        height: 45%;
+        height: 40%;
     }
   }
 
