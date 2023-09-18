@@ -5,7 +5,7 @@
 html{
     font-size: 6px;
 }
-    /* font-family: 'Helvetica, Arial, sans-serif';} */
+   
 
 body {
     width: 100vw;
@@ -17,9 +17,6 @@ body {
     font-size: 17px;
     letter-spacing:0.03px;
 }
-
-
-
 
 
 
@@ -40,7 +37,6 @@ body {
     word-break: break-word;
 }
 .navi{
-    /* background-color: aquamarine; */
     width: 100vw;
 }
 
@@ -62,29 +58,25 @@ body {
     transform: rotate(3.142rad);
   }
   
-  /* Style the checkbox input to be hidden */
   .toggle-switch input {
     display: none;
   }
   
-  /* Style the slider (the part that moves) */
   .toggle-switch .slider {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2196F3; /* Default background color */
+    background-color: #2196F3; 
     border-radius: 50px;
     transition: 0.4s;
   }
   
-  /* Style the slider when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider {
-    background-color: #00e107; /* Color when toggled on */
+    background-color: #00e107; 
   }
   
-  /* Style the slider knob (the small circle) */
   .toggle-switch .slider::before {
     content: "";
     position: absolute;
@@ -97,9 +89,8 @@ body {
     transition: 0.4s;
   }
   
-  /* Style the slider knob when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider::before {
-    transform: translateX(11px); /* Move the knob to the right when toggled on */
+    transform: translateX(11px); 
   }
   
 
@@ -108,15 +99,11 @@ body {
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows:  1fr 1fr 1fr ; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 1vh;
     height: 100vh;
-    /* width: 166vh; */
     grid-gap: 6vh;
-    /* background-color: blueviolet; */
-    /* justify-items: start */
 }
 
 .gallery img{
@@ -133,19 +120,13 @@ body {
     max-width: 79vh; 
     height: 50vh;
     cursor: pointer;
-    /* margin-left: auto;
-    margin-right: auto; */
-
     background-size: 100%;
     margin-top: 21vh;
-    /* margin-top: 6vh;     */
     overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    /* border: 3px solid blue; */
-    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .gallery:first-child{
@@ -153,34 +134,27 @@ body {
 }
 
 
-/* .gallery:nth-child(3){
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 1.5vh;
-    height: 49vh;
-} */
-
-
 
 .background{
     background-color: black;
 }
-/* .gallery-image {
-    width: 100%;
-    height: auto;
-} */
 
 .image-overlay {
     position: absolute;
     top: 0;
-    width: 50%; /* Left and right overlays */
+    width: 50%;
     height: 100%;
     transition: background-color 0.3s;
 }
 
 .text{
     position: relative;
-    padding-bottom: 47vh;
+    padding-bottom: 11vh;
     padding-left: 0.5vh;
+}
+
+.text:last-child{
+    padding-bottom: 15vh;
 }
 
 .lineheight{
@@ -197,8 +171,6 @@ body {
 }
 
 p{
-    /* border: 1px solid blue;
-    background-color: cadetblue; */
     padding:0;
     margin:0;
     border-radius: 1px solid black;
@@ -228,11 +200,11 @@ p{
 
 a{
     color: black;
-    /* text-decoration: none; */
 }
-/* Hide scrollbar for IE, Edge and Firefox */
 
-
+#current-image{
+    width: 100%;
+}
 
 
 #current-image-2{
@@ -303,12 +275,12 @@ a{
     opacity: 0;
     overflow: auto;
     scroll-behavior: smooth;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;/* Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
     position: absolute;
-    right: 0; /* This will position it on the right side */
-    width: 45.5vw/* your desired width */;
-    height: 100vh;/* your desired height */;
+    right: 0;
+    width: 45.5vw;
+    height: 100vh;
 
 }
 
@@ -319,7 +291,7 @@ a{
 
 #left{
  overflow: scroll;
- -ms-overflow-style: none;  /* IE and Edge */
+ -ms-overflow-style: none; 
  scrollbar-width: none; 
  scroll-behavior: smooth;
  height:auto;
@@ -332,62 +304,62 @@ a{
 
 #left-overlay {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize; 
 }
 
 #right-overlay {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 #left-overlay-2 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize; 
 }
 
 #right-overlay-2 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 #left-overlay-3 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize;
 }
 
 #right-overlay-3 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 #left-overlay-4 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize;
 }
 
 #right-overlay-4 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize;
 }
 
 #left-overlay-5 {
     left: 0;
-    cursor: default; /* Left-pointing cursor */
+    cursor: default; 
 }
 
 #right-overlay-5 {
     right: 0;
-    cursor: default; /* Right-pointing cursor */
+    cursor: default; 
 }
 
 #left-overlay-6 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize; 
 }
 
 #right-overlay-6 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 #left-overlay-7 {
@@ -402,32 +374,32 @@ a{
 
 #left-overlay-8 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize; 
 }
 
 #right-overlay-8 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 #left-overlay-9 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize; 
 }
 
 #right-overlay-9 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 #left-overlay-10 {
     left: 0;
-    cursor: w-resize; /* Left-pointing cursor */
+    cursor: w-resize; 
 }
 
 #right-overlay-10 {
     right: 0;
-    cursor: e-resize; /* Right-pointing cursor */
+    cursor: e-resize; 
 }
 
 
@@ -480,29 +452,28 @@ a{
     transform: rotate(3.142rad);
   }
   
-  /* Style the checkbox input to be hidden */
+  
+  
   .toggle-switch input {
     display: none;
   }
   
-  /* Style the slider (the part that moves) */
+
   .toggle-switch .slider {
     position: absolute;
     top: 3px;
     left: 1.5px;
     right: 0;
     bottom: 0;
-    background-color: #2196F3; /* Default background color */
+    background-color: #2196F3; 
     border-radius: 50px;
     transition: 0.4s;
   }
   
-  /* Style the slider when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider {
     background-color: #00e107;
   }
   
-  /* Style the slider knob (the small circle) */
   .toggle-switch .slider::before {
     content: "";
     position: absolute;
@@ -515,9 +486,8 @@ a{
     transition: 0.4s;
   }
   
-  /* Style the slider knob when the checkbox is checked (on) */
   .toggle-switch input:checked + .slider::before {
-    transform: translateX(11px); /* Move the knob to the right when toggled on */
+    transform: translateX(11px); 
   }
 
     body{
