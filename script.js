@@ -225,17 +225,3 @@ function createGallery(images, currentIndex, currentImage, leftOverlay, rightOve
   });
 
 
-
-//   input.addEventListener('change',function(){
-//     if(this.checked) {
-//         rightside.style.opacity='0'
-//         leftside.style.opacity='10'
-//         leftside.classList.add('fade');
-
-//     } else {
-//         leftside.style.opacity='0'
-//         rightside.style.opacity='10'
-//     }
-// });
-
-
