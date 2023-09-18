@@ -68,13 +68,13 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2196F3; 
+    background-color: #66df6a; 
     border-radius: 50px;
     transition: 0.4s;
   }
   
-  .toggle-switch input:checked + .slider {
-    background-color: #00e107; 
+  .toggle-switch input:checked + .slider { 
+    background-color: #2196F3; 
   }
   
   .toggle-switch .slider::before {
@@ -151,6 +151,7 @@ body {
     position: relative;
     padding-bottom: 11vh;
     padding-left: 0.5vh;
+    max-width: 78.6vh;
 }
 
 .text:last-child{
@@ -182,7 +183,7 @@ p{
 
 .image-count {
     position: absolute;
-    right: 4.5vh;
+    right:0;
     color:black;
     font-size: 17px;
     letter-spacing:0.48px;
@@ -204,6 +205,7 @@ a{
 
 #current-image{
     width: 100%;
+    position: absolute;
 }
 
 
@@ -295,6 +297,7 @@ a{
  scrollbar-width: none; 
  scroll-behavior: smooth;
  height:auto;
+ /* max-width: 79vh;  */
 }
 
 #left::-webkit-scrollbar {
@@ -465,13 +468,13 @@ a{
     left: 1.5px;
     right: 0;
     bottom: 0;
-    background-color: #2196F3; 
+    background-color: #00e107;
     border-radius: 50px;
     transition: 0.4s;
   }
   
   .toggle-switch input:checked + .slider {
-    background-color: #00e107;
+    background-color: #2196F3; 
   }
   
   .toggle-switch .slider::before {
