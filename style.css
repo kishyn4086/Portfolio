@@ -109,6 +109,7 @@ body {
 .gallery img{
   width: 100%;
   margin:auto;
+  padding: auto;
   object-fit: cover;
   display: block;
 }
@@ -117,17 +118,16 @@ body {
 
 .gallery {
     position: relative;
-    max-width: 79vh; 
-    height: 50vh;
+    width: 48vw; 
+    height: 60vh;
     cursor: pointer;
-    background-size: 100%;
     margin-top: 21vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
- 
 }
+
 
 .gallery:first-child{
     margin-top: 0;
@@ -151,7 +151,7 @@ body {
     position: relative;
     padding-bottom: 11vh;
     padding-left: 0.5vh;
-    max-width: 78.6vh;
+    /* width: 49.8vw; */
 }
 
 .text:last-child{
@@ -203,6 +203,8 @@ a{
     color: black;
 }
 
+
+
 #current-image{
     width: 100%;
     position: absolute;
@@ -216,24 +218,15 @@ a{
 
 #current-image-3{
     width: 80%;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     position: absolute;
 }
 
 #current-image-4{
     width: 80%;
-
 }
 
 #current-image-5{
     width: 59%;
-    bottom: 0;
-    top:0;
-    left: 0;
-    right: 0;
     position: absolute;
 }
 
@@ -241,10 +234,6 @@ a{
     width: 95%;
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#image-count-6, #image-count-7,#image-count-8, #image-count-9{
-    right: 2vh;
 }
 
 #current-image-7{
@@ -264,9 +253,13 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 
-#current-image-10 {
+#current-image-10{
     width: 100%;
+    margin: 0;
+
 }
+
+
 
 
 
@@ -280,10 +273,9 @@ a{
     -ms-overflow-style: none; 
     scrollbar-width: none;
     position: absolute;
-    right: 0;
-    width: 45.5vw;
+    width: 49vw;
     height: 100vh;
-
+    right:0;
 }
 
 #right::-webkit-scrollbar {
@@ -296,8 +288,8 @@ a{
  -ms-overflow-style: none; 
  scrollbar-width: none; 
  scroll-behavior: smooth;
- height:auto;
- /* max-width: 79vh;  */
+ height:auto;   
+ /* max-width: 48vw; */
 }
 
 #left::-webkit-scrollbar {
@@ -409,41 +401,98 @@ a{
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1366px) {
+
+    #current-image-5{
+        width: 46%;
+        position: absolute;
+    }
 
     .image-count{
         right: 0;
     }
 
+    .gallery img{
+        width: auto;
+        height: auto;
+        object-fit: cover; 
+        display: block;
+      }
 
     .gallery{
-        height: 50vh;
-    }
-
-    #current-image{
-        width: 111%;
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; 
     }
 
     #left{
         width: 100vw;
         height:auto;
-        overflow: auto;
+        overflow: scroll;
     }
 
     #right{
         width: 100vw;
         height: 90vh;
         display: none;
+        overflow: auto;
+    }
+
+    #current-image-6{
+        width: 85%;
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
+    #current-image-7{
+        width: 85%;
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #current-image-8{
+        width: 85%;
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #current-image-9{
+        width: 85%;
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    }
+
+
   }
 
 
 
 
+
+  @media screen and (max-width: 768px){
+      
+    .gallery{
+          height: 55vh;
+      } 
+
+    
+      #current-image-5{
+        width: 56%;
+        position: absolute;
+    }
+
+
+  }
+
+  
+
+
+
+
+
   @media screen and (max-width: 414px){
-
-
 .toggle-switch {
     top:0.8vh;
     position: relative;
@@ -505,12 +554,12 @@ a{
         font-size: 14px;
     }
 
-    .gallery{
-        height: 40%;
-    }
-
     #current-image{
         width: 100%;
+    }
+
+    .gallery{
+        height: 45vh;
     }
   }
 
@@ -530,8 +579,9 @@ a{
     }
 
     .gallery{
-        height: 40%;
+        height: 45vh;
     }
+
   }
 
 
