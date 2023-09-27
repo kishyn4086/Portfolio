@@ -1,37 +1,37 @@
-
-const galleryOneImages = ["gallery1/image1.jpg", "gallery1/image2.jpg", "gallery1/image3.jpg", "gallery1/image4.jpg", "gallery1/image5.jpg"];
+const galleryOneImages = ["gallery10/image1.png", "gallery10/image2.png", "gallery10/image3.png", "gallery10/image4.png", "gallery10/image5.png"];
 let currentIndexOne = 0;
 
-const galleryTwoImages = ["gallery2/image1.jpg", "gallery2/image2.jpg", "gallery2/image3.jpg", "gallery2/image4.jpg", "gallery2/image5.jpg", "gallery2/image6.jpg", "gallery2/image7.jpg"];
+
+const galleryTwoImages = ["gallery1/image1.jpg", "gallery1/image2.jpg", "gallery1/image3.jpg", "gallery1/image4.jpg", "gallery1/image5.jpg", "gallery1/image6.jpg", "gallery1/image7.jpg", "gallery1/image8.jpg", "gallery1/image9.jpg", "gallery1/image10.jpg"];
 let currentIndexTwo = 0;
 
-const galleryThreeImages = ["gallery3/image1.jpg", "gallery3/image2.jpg"];
+const galleryThreeImages = ["gallery2/druckerei.jpg","gallery2/druckerei2.jpg", "gallery2/image1.jpg", "gallery2/image2.jpg", "gallery2/image3.jpg", "gallery2/image4.jpg", "gallery2/image5.jpg", "gallery2/image6.jpg", "gallery2/image7.jpg"];
 let currentIndexThree = 0;
+
 
 const galleryFourImages = ["gallery4/image1.png", "gallery4/image2.png", "gallery4/image3.png", "gallery4/image4.png", "gallery4/image5.png"];
 let currentIndexFour = 0;
 
-const galleryFiveImages = ["gallery5/folding.gif"];
+
+const galleryFiveImages = ["gallery6/image1.png", "gallery6/image2.jpg", "gallery6/image3.jpg", "gallery6/image4.jpg", "gallery6/image5.jpg",  "gallery6/image6.jpg",  "gallery6/image7.jpg", "gallery6/image8.jpg", "gallery6/image9.jpg", "gallery6/image10.jpg", "gallery6/image11.jpg","gallery6/image12.jpg", "gallery6/image13.jpg"];
 let currentIndexFive = 0;
 
 
-const gallerySixImages = ["gallery6/image1.png", "gallery6/image2.jpg", "gallery6/image3.jpg", "gallery6/image4.jpg", "gallery6/image5.jpg",  "gallery6/image6.jpg",  "gallery6/image7.jpg", "gallery6/image8.jpg", "gallery6/image9.jpg", "gallery6/image10.jpg", "gallery6/image11.jpg","gallery6/image12.jpg", "gallery6/image13.jpg"];
+const gallerySixImages = ["gallery7/image1.jpg", "gallery7/image2.jpg", "gallery7/image3.jpg", "gallery7/image4.jpg", "gallery7/image5.jpg", "gallery7/image6.jpg","gallery7/image7.jpg", "gallery7/image8.jpg", "gallery7/image9.jpg", "gallery7/image10.jpg", "gallery7/image11.jpg"];
 let currentIndexSix = 0;
 
 
-const gallerySevenImages = ["gallery7/image1.jpg", "gallery7/image2.jpg", "gallery7/image3.jpg", "gallery7/image4.jpg", "gallery7/image5.jpg", "gallery7/image6.jpg","gallery7/image7.jpg", "gallery7/image8.jpg", "gallery7/image9.jpg", "gallery7/image10.jpg", "gallery7/image11.jpg"];
+const gallerySevenImages = ["gallery8/image1.jpg", "gallery8/image2.jpg", "gallery8/image3.jpg", "gallery8/image4.jpg", "gallery8/image5.jpg", "gallery8/image6.jpg", "gallery8/image7.jpg", "gallery8/image9.jpg", "gallery8/image10.jpg"];
 let currentIndexSeven = 0;
 
 
-const galleryEightImages = ["gallery8/image1.jpg", "gallery8/image2.jpg", "gallery8/image3.jpg", "gallery8/image4.jpg", "gallery8/image5.jpg", "gallery8/image6.jpg", "gallery8/image7.jpg", "gallery8/image9.jpg", "gallery8/image10.jpg"];
+const galleryEightImages = ["gallery9/image1.jpg", "gallery9/image2.jpg", "gallery9/image3.jpg", "gallery9/image4.jpg", "gallery9/image5.jpg", "gallery9/image6.jpg", "gallery9/image7.jpg", "gallery9/image8.jpg", "gallery9/image9.jpg", "gallery9/image10.jpg" ];
 let currentIndexEight = 0;
 
-
-const galleryNineImages = ["gallery9/image1.jpg", "gallery9/image2.jpg", "gallery9/image3.jpg", "gallery9/image4.jpg", "gallery9/image5.jpg", "gallery9/image6.jpg", "gallery9/image7.jpg", "gallery9/image8.jpg", "gallery9/image9.jpg", "gallery9/image10.jpg" ];
+const galleryNineImages = ["footer/도넛1.jpg", "footer/도넛2.jpg", "footer/도넛3.jpg"];
 let currentIndexNine = 0;
 
-const galleryTenImages = ["gallery10/image1.png", "gallery10/image2.png", "gallery10/image3.png", "gallery10/image4.png", "gallery10/image5.png"];
-let currentIndexTen = 0;
+
 
 
 const currentImageOne = document.getElementById("current-image");
@@ -66,19 +66,17 @@ const currentImageEight = document.getElementById("current-image-8");
 const leftOverlayEight= document.getElementById("left-overlay-8");
 const rightOverlayEight= document.getElementById("right-overlay-8");
 
-const currentImageNine = document.getElementById("current-image-9");
+const currentImageNine= document.getElementById("current-image-9");
 const leftOverlayNine= document.getElementById("left-overlay-9");
 const rightOverlayNine= document.getElementById("right-overlay-9");
 
-const currentImageTen = document.getElementById("current-image-10");
-const leftOverlayTen= document.getElementById("left-overlay-10");
-const rightOverlayTen= document.getElementById("right-overlay-10");
+
 
 function createGallery(images, currentIndex, currentImage, leftOverlay, rightOverlay, galleryIndex) {
   function updateImage() {
     currentImage.src = images[currentIndex];
     const imageCount = document.getElementById(`image-count-${galleryIndex}`);
-    imageCount.textContent = `${currentIndex + 1}/${images.length}`;
+    imageCount.textContent = `Fig. ${currentIndex + 1} of ${images.length}`;
   }
 
   
@@ -184,14 +182,6 @@ function createGallery(images, currentIndex, currentImage, leftOverlay, rightOve
     9
   );
 
-  const galleryTen = createGallery(
-    galleryTenImages,
-    currentIndexTen,
-    currentImageTen,
-    leftOverlayTen,
-    rightOverlayTen,
-    10
-  );
 
 
   // toggleevent
@@ -204,23 +194,13 @@ function createGallery(images, currentIndex, currentImage, leftOverlay, rightOve
 
   input.addEventListener('change',function(){
       if(this.checked) {
-          // rightside.style.opacity='0' fadeout
-          rightside.classList.add('fadeout');
-          leftside.classList.add('fade');
-          leftside.style.opacity='1';
           rightside.style.display='none';
           leftside.style.display='block';
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-
-
+          window.scrollTo({ top: 0, behavior: 'smooth' })
       } else {
-        rightside.classList.add('fade');
-        leftside.classList.add('fadeout');
         leftside.style.display='none';
         rightside.style.display='block';
-        rightside.style.opacity='1';
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-     
+        window.scrollTo({ top: 0, behavior: 'smooth' })
       }
   });
 
