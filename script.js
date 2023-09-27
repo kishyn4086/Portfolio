@@ -28,7 +28,7 @@ let currentIndexSeven = 0;
 const galleryEightImages = ["gallery9/image1.jpg", "gallery9/image2.jpg", "gallery9/image3.jpg", "gallery9/image4.jpg", "gallery9/image5.jpg", "gallery9/image6.jpg", "gallery9/image7.jpg", "gallery9/image8.jpg", "gallery9/image9.jpg", "gallery9/image10.jpg" ];
 let currentIndexEight = 0;
 
-const galleryNineImages = ["footer/도넛1.jpg", "footer/도넛2.jpg", "footer/도넛3.jpg"];
+const galleryNineImages = ["footer/donut1.jpg", "footer/donut2.jpg", "footer/donut3.jpg"];
 let currentIndexNine = 0;
 
 
