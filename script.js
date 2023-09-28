@@ -13,19 +13,19 @@ const galleryFourImages = ["https://i.postimg.cc/7ZKmZvhD/image1.png", "https://
 let currentIndexFour = 0;
 
 
-const galleryFiveImages = ["gallery6/image1.png", "gallery6/image2.jpg", "gallery6/image3.jpg", "gallery6/image4.jpg", "gallery6/image5.jpg",  "gallery6/image6.jpg",  "gallery6/image7.jpg", "gallery6/image8.jpg", "gallery6/image9.jpg", "gallery6/image10.jpg", "gallery6/image11.jpg","gallery6/image12.jpg", "gallery6/image13.jpg"];
+const galleryFiveImages = ["https://i.postimg.cc/2jxt6dm7/image1.png", "https://i.postimg.cc/GhcZJ7zf/image2.jpg", "https://i.postimg.cc/brR4fkYL/image3.jpg", "https://i.postimg.cc/jdZB8HFS/image4.jpg", "https://i.postimg.cc/d0TXtzth/image5.jpg",  "https://i.postimg.cc/sgLqzVyF/image6.jpg",  "https://i.postimg.cc/sXdLBwvw/image7.jpg", "https://i.postimg.cc/xCv4LMmY/image8.jpg", "https://i.postimg.cc/kGwYpCwp/image9.jpg", "https://i.postimg.cc/yYYbSJ84/image10.jpg", "https://i.postimg.cc/28cXdz1q/image11.jpg","https://i.postimg.cc/4xY2BrcW/image12.jpg", "https://i.postimg.cc/HL5ZCXB5/image13.jpg"];
 let currentIndexFive = 0;
 
 
-const gallerySixImages = ["gallery7/image1.jpg", "gallery7/image2.jpg", "gallery7/image3.jpg", "gallery7/image4.jpg", "gallery7/image5.jpg", "gallery7/image6.jpg","gallery7/image7.jpg", "gallery7/image8.jpg", "gallery7/image9.jpg", "gallery7/image10.jpg", "gallery7/image11.jpg"];
+const gallerySixImages = ["https://i.postimg.cc/W4VVvj01/image1.jpg", "https://i.postimg.cc/76Yy5Vsv/image2.jpg", "https://i.postimg.cc/q7GTBYGX/image3.jpg", "https://i.postimg.cc/h4frKmDf/image4.jpg", "https://i.postimg.cc/xj3zDTHc/image5.jpg", "https://i.postimg.cc/W4xM3Wbz/image6.jpg","https://i.postimg.cc/zvghMFJH/image7.jpg", "https://i.postimg.cc/x1J8C0kG/image8.jpg", "https://i.postimg.cc/FHDp9VLk/image9.jpg", "https://i.postimg.cc/N0D4j72r/image10.jpg", "https://i.postimg.cc/RVbq430V/image11.jpg"];
 let currentIndexSix = 0;
 
 
-const gallerySevenImages = ["gallery8/image1.jpg", "gallery8/image2.jpg", "gallery8/image3.jpg", "gallery8/image4.jpg", "gallery8/image5.jpg", "gallery8/image6.jpg", "gallery8/image7.jpg", "gallery8/image9.jpg", "gallery8/image10.jpg"];
+const gallerySevenImages = ["https://i.postimg.cc/qvrTy4gH/image1.jpg", "https://i.postimg.cc/CKPT387w/image2.jpg", "https://i.postimg.cc/0N21Xnpt/image3.jpg", "https://i.postimg.cc/7658wLt0/image4.jpg", "https://i.postimg.cc/v86FKcVd/image5.jpg", "https://i.postimg.cc/02RR1PYK/image6.jpg", "ghttps://i.postimg.cc/tJ6KnMjg/image7.jpg", "https://i.postimg.cc/0QhgQqh3/image9.jpg", "https://i.postimg.cc/m2YxbJjX/image10.jpg"];
 let currentIndexSeven = 0;
 
 
-const galleryEightImages = ["gallery9/image1.jpg", "gallery9/image2.jpg", "gallery9/image3.jpg", "gallery9/image4.jpg", "gallery9/image5.jpg", "gallery9/image6.jpg", "gallery9/image7.jpg", "gallery9/image8.jpg", "gallery9/image9.jpg", "gallery9/image10.jpg" ];
+const galleryEightImages = ["https://i.postimg.cc/1ztCkj4j/image1.jpg", "https://i.postimg.cc/pd6GRJFX/image2.jpg", "https://i.postimg.cc/13M7YQRF/image3.jpg", "https://i.postimg.cc/SNCwd3zL/image4.jpg", "https://i.postimg.cc/FztTJFpM/image5.jpg", "https://i.postimg.cc/ryWn2WFM/image6.jpg", "https://i.postimg.cc/vHsPYBc9/image7.jpg", "ghttps://i.postimg.cc/FzjDbtn7/image8.jpg", "https://i.postimg.cc/TYJtp6Ds/image9.jpg", "https://i.postimg.cc/ht4pm58t/image10.jpg" ];
 let currentIndexEight = 0;
 
 const galleryNineImages = ["footer/donut1.jpg", "footer/donut2.jpg", "footer/donut3.jpg"];
