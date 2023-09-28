@@ -1,4 +1,4 @@
-const galleryOneImages = ["https://i.postimg.cc/5yNLQy6t/image1.png", "https://i.postimg.cc/kG18QCbv/image2.png", "https://i.postimg.cc/zD0nZCcH/image3.png", "https://i.postimg.cc/X7q9VrRH/image4.png", "https://i.postimg.cc/vBv5mf8j/image5.png"];
+const galleryOneImages = ["https://i.postimg.cc/y6LY4ZJk/image1.png", "https://i.postimg.cc/kG18QCbv/image2.png", "https://i.postimg.cc/zD0nZCcH/image3.png", "https://i.postimg.cc/X7q9VrRH/image4.png", "https://i.postimg.cc/mgzrSggh/image5.png"];
 let currentIndexOne = 0;
 
 
