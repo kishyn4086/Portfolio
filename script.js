@@ -1,11 +1,11 @@
-const galleryOneImages = ["gallery10/image1.png", "gallery10/image2.png", "gallery10/image3.png", "gallery10/image4.png", "gallery10/image5.png"];
+const galleryOneImages = ["https://i.postimg.cc/5yNLQy6t/image1.png", "https://i.postimg.cc/kG18QCbv/image2.png", "https://i.postimg.cc/zD0nZCcH/image3.png", "https://i.postimg.cc/X7q9VrRH/image4.png", "https://i.postimg.cc/vBv5mf8j/image5.png"];
 let currentIndexOne = 0;
 
 
 const galleryTwoImages = ["https://i.postimg.cc/FzLvFsGf/image1.jpg", "https://i.postimg.cc/HkHrNfs0/image2.jpg", "https://i.postimg.cc/XvYpjd5p/image3.jpg", "https://i.postimg.cc/V651TFCW/image4.jpg", "https://i.postimg.cc/pdcMDn6h/image6.jpg", "https://i.postimg.cc/1XpdYgJK/image7.jpg", "https://i.postimg.cc/mryGh5Qw/image8.jpg", "https://i.postimg.cc/7LTHK9r8/image9.jpg", "https://i.postimg.cc/hGnTnXDY/image10.jpg"];
 let currentIndexTwo = 0;
 
-const galleryThreeImages = ["gallery2/druckerei.jpg","gallery2/druckerei2.jpg", "gallery2/image1.jpg", "gallery2/image2.jpg", "gallery2/image3.jpg", "gallery2/image4.jpg", "gallery2/image5.jpg", "gallery2/image6.jpg", "gallery2/image7.jpg"];
+const galleryThreeImages = ["https://i.postimg.cc/9Q3PJWkL/druckerei.jpg","https://i.postimg.cc/X7BcfZsZ/druckerei2.jpg", "https://i.postimg.cc/fWprXSxF/image1.jpg", "https://i.postimg.cc/4dMHyPkW/image2.jpg", "https://i.postimg.cc/BQFH8rvH/image3.jpg", "https://i.postimg.cc/141gczz6/image4.jpg", "https://i.postimg.cc/3wtv57L5/image5.jpg", "https://i.postimg.cc/Nj7XDRm0/image6.jpg", "https://i.postimg.cc/k5JbpDvv/image7.jpg"];
 let currentIndexThree = 0;
 
 
