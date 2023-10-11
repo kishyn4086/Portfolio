@@ -28,8 +28,7 @@ let currentIndexSeven = 0;
 const galleryEightImages = ["https://i.postimg.cc/1ztCkj4j/image1.jpg", "https://i.postimg.cc/pd6GRJFX/image2.jpg", "https://i.postimg.cc/13M7YQRF/image3.jpg", "https://i.postimg.cc/SNCwd3zL/image4.jpg", "https://i.postimg.cc/FztTJFpM/image5.jpg", "https://i.postimg.cc/ryWn2WFM/image6.jpg", "https://i.postimg.cc/vHsPYBc9/image7.jpg", "https://i.postimg.cc/FzjDbtn7/image8.jpg", "https://i.postimg.cc/TYJtp6Ds/image9.jpg", "https://i.postimg.cc/ht4pm58t/image10.jpg" ];
 let currentIndexEight = 0;
 
-const galleryNineImages = ["footer/donut1.jpg", "footer/donut2.jpg", "footer/donut3.jpg"];
-let currentIndexNine = 0;
+
 
 
 
@@ -66,9 +65,7 @@ const currentImageEight = document.getElementById("current-image-8");
 const leftOverlayEight= document.getElementById("left-overlay-8");
 const rightOverlayEight= document.getElementById("right-overlay-8");
 
-const currentImageNine= document.getElementById("current-image-9");
-const leftOverlayNine= document.getElementById("left-overlay-9");
-const rightOverlayNine= document.getElementById("right-overlay-9");
+
 
 
 
@@ -173,14 +170,6 @@ function createGallery(images, currentIndex, currentImage, leftOverlay, rightOve
   );
   
 
-  const galleryNine = createGallery(
-    galleryNineImages,
-    currentIndexNine,
-    currentImageNine,
-    leftOverlayNine,
-    rightOverlayNine,
-    9
-  );
 
 
 
