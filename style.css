@@ -28,6 +28,7 @@ span .and{
 li{
  width: 100%;
  display: inline-block;
+
  /* background-color: palegreen; */
  /* color: palegreen; */
 }
@@ -235,15 +236,66 @@ a{
 }
 
 
-
-
 footer{
     width: 30%;
-    left: 0;
-    right: 0;
     margin: auto;
     padding:auto;
-    margin-top: 37vh;}
+    margin-top: 9vh;
+    margin-bottom: 5vh;
+}
+
+.footer-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.yours {
+    align-items: flex-start;
+  }
+  
+.messages {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.message {
+    border-radius: 20px;
+    padding: 12px 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .yours .message {
+    background-color: #eee;
+    position: relative;
+  }
+  
+  .yours .message.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: -7px;
+    height: 20px;
+    width: 20px;
+    background: #eee;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .yours .message.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: -10px;
+    width: 10px;
+    height: 20px;
+    background: white;
+    border-bottom-right-radius: 10px;
+  }
 
 
 
@@ -379,5 +431,36 @@ footer{
     right: 0;
     cursor: e-resize; 
 }
+
+
+
+
+@media screen and (max-width: 1024px){
+   .intro{
+    width: 50%;
+   }
+    footer{
+        width: 40%;
+    } 
+}
+
+@media screen and (max-width: 768px){
+    ul{
+        display: none;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
+    .text{
+        padding-left: 1vw;
+    }
+    
+    footer{
+        width: 60%;
+    } 
+}
+
 
 
