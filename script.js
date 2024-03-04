@@ -9,7 +9,7 @@
         var clickCount = 0
         var 화면크기 = window.innerHeight;
 
-        var projectTitle = ['Sanke Oil','Self-archive-doughnuts','Endless apartment','Happy Valentine','Replica','Catch me if you can','Brightness','folding','Metall? Metall!','Ghost hunters','Ways of seeing ways of reading']
+        var projectTitle = ['Sanke Oil','Self-archive-doughnuts','Endless apartment','Happy Valentine','Replicaㄴ','Catch me if you can','Brightness','folding','Metall? Metall!','Ghost hunters','Ways of seeing ways of reading']
         var projectText = [`Snake Oil is a web-based game that informs about the environmental effects of our daily internet usage in a playful way, using ASCII aesthetics. This website creates a 0.1% carbon footprint every time it is visited.`,
       `The website is a self-archive documenting my journey in making donuts, crafted during the Ultralight website workshop hosted by Laural Schwulst and Andre Fuchs.`,
       `This website shows an endlessly long apartment that never ends. You can also print the section up to where you have scrolled.`,
