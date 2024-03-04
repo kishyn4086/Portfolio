@@ -9,7 +9,7 @@
         var clickCount = 0
         var 화면크기 = window.innerHeight;
 
-        var projectTitle = ['Sanke Oil','Donuts','Endless apartment','Happy Valentine','Replica','Catch me if you can','Brightness','folding','Metall? Metall!','Ghost hunters','Ways of seeing ways of reading']
+        var projectTitle = ['Sanke Oil','Self-archive-doughnuts','Endless apartment','Happy Valentine','Replica','Catch me if you can','Brightness','folding','Metall? Metall!','Ghost hunters','Ways of seeing ways of reading']
         var projectText = [`Snake Oil is a web-based game that informs about the environmental effects of our daily internet usage in a playful way, using ASCII aesthetics. This website creates a 0.1% carbon footprint every time it is visited.`,
       `The website is a self-archive documenting my journey in making donuts, crafted during the Ultralight website workshop hosted by Laural Schwulst and Andre Fuchs.`,
       `This website shows an endlessly long apartment that never ends. You can also print the section up to where you have scrolled.`,
@@ -23,7 +23,7 @@
       Is there an aura in the internet?<br>
       Can one click make you satisfied?
       `,
-      'Catch me if you can.',
+      ` The main activity in this web is for users involves chasing flies on the screen. The game is designed to increase in difficulty with more attempts, making each fly harder to catch as the user progresses.`,
       `An event with snowfall that appears depending on screen brightness.`,
       `A collection of folded napkins.`,
       `This catalog showcases the diverse artworks created by 30 individuals from the Metal and Sculpture Art Class of 2022-2023. Each artist's section is divided into 3-5 pages, with each section beginning with an index page that provides detailed information 
